@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Todos from './Todos' // Lakukan import
+import Todos from './components/Todos' // Lakukan import
 
 function App() {
   const [todos, setTodos] = useState([
